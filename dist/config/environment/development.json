@@ -5,13 +5,16 @@
 		"port": "3331",
 		"environment": "development"
 	},
+	"cookies":{
+		"cookieParser":"asdfsfa"
+	},
 	"sessions":{
-		"enabled":true,
+		"enabled":false,
 		"type":"mongo"
 	},
 	"userauth":{
-		"enabled":true,
-		"rememberme":true,
-		"passport":true
+		"enabled":false,
+		"rememberme":false,
+		"passport":false
 	}
 }
