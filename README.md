@@ -6,9 +6,12 @@ Boilerplate web client
 ## Prerequisites
 **You need to make sure you have nodemon and grunt installed globally first**
 
-### Installing nodemon
     $ npm install nodemon -g
     $ npm install grunt-cli -g
+    
+## Installation
+
+    $ npm install periodic.app.web-client
 
 ## Starting App
 Hop into the app directory (the app gets copied via a grunt task), install dependencies for the app, create a log directory, fire up the app.
